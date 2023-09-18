@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 90%;
+    padding: 1px 5vw;
+    margin: auto;
+}
+.logo{
+    padding-right: 43px;
+}
+
+.display-flex{
+    display: flex;
+    /* justify-content: center;  */
+    align-items: center;
+    height: 68px;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.navbarleft{
+    display: flex;
+    /* margin: auto; */
+    align-items: center;
+}
+.logo img{
+    height: 30px;
+}
+.font-style{
+    font-style: normal;
+}
+.navbar{
+
+}
+.navbarleft ul li a{
+    color: black;
+    text-decoration: none;
+}
+.uppercase{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbarleft ul li{
+    padding: 12px;
+    list-style: none;
+}
+
+/* navbar-right */
+.search{
+    height: 20px;
+    width: 349px;
+    padding-left: 27px;
+}
+.navbarright{
+    padding-left: 102px;
+}
+.margin{
+    margin-left: 19px;
+    font-weight: bolder;
+}
+
+
+.main{
+    /* height: 122vh; */
+    background-color: rgb(226 226 226);
+}
+
+.bdy{
+    max-width: 98%;
+    margin: auto;
+}
+.main a img{
+    width: 100%;
+    padding-top: 25px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.para h1{
+    height: 138px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+/* imaages started */
+.imgsec1 a img{
+    height: 279px;
+    width: 280px;
+}
+.imgdisc1{
+    display: flex;
+    height: 47px;
+    align-items: center;
+}
+.imgdisc1 p{
+    color: black;
+}
+.imgdisc1 a{
+    text-decoration: none;
+}
+.desc{
+    padding: 59px;
+}
+.para2{
+    height: 70px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.imgg6 a img{
+    display: flex;
+    height: 325px;
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer started */
+.foter{
+    background-color: #d9d9de;
+    padding-top: 33px;
+    display: flex;
+    justify-content: center;
+}
+.foterdiv{
+    padding: 35px;
+}
+.foterdiv p{
+    padding: 9px;
+    cursor: pointer;
+}
+.foterdiv h4{
+    padding-left: 7px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.butt button{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    padding: 11px;
+    border-radius: 9px;
+}
